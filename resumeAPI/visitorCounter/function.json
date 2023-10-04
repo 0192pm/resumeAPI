@@ -1,0 +1,38 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "authLevel": "function",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "$return"
+    },
+    {
+      "type": "cosmosDB",
+      "direction": "in",
+      "name": "inputDocument",
+      "databaseName": "keishasresumeapi",
+      "collectionName": "visitorCounter",
+      "connectionStringSetting": "keishasresumeapi_DOCUMENTDB",
+      "createIfNotExists": false
+    },
+    {
+      "type": "cosmosDB",
+      "direction": "out",
+      "name": "outputDocument",
+      "databaseName": "keishasresumeapi",
+      "collectionName": "visitorCounter",
+      "createIfNotExists": false,
+      "connectionStringSetting": "keishasresumeapi_DOCUMENTDB"
+    }
+  ]
+}

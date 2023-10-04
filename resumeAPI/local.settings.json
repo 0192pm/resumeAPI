@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=resumebackend9236;AccountKey=0qOaR3avyDeP6PoIHGTVq3WfAAV/zEo+n8bVn3mlgbm29rLOh64Pa7vEgK5cTAhIy96jZHBQTBOt+ASthNzzkA==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "keishasresumeapi_DOCUMENTDB": "AccountEndpoint=https://keishasresumeapi.documents.azure.com:443/;AccountKey=NynBIyk5nzGXaPJxwu3IWLaetAAWMxAMtww3kSYsZWfDXKTX4a5WAy7ioemDvR7t33j1uhAeQKe9ACDbkYa25w==;",
+    "APPLICATIONINSIGHTS_CONNECTION_STRING": "InstrumentationKey=611fdcc4-fff4-4aa3-8816-addd7fd36be0;IngestionEndpoint=https://centralus-2.in.applicationinsights.azure.com/;LiveEndpoint=https://centralus.livediagnostics.monitor.azure.com/",
+    "CosmosDB": "AccountEndpoint=https://keishasresumeapi.documents.azure.com:443/;AccountKey=NynBIyk5nzGXaPJxwu3IWLaetAAWMxAMtww3kSYsZWfDXKTX4a5WAy7ioemDvR7t33j1uhAeQKe9ACDbkYa25w==;",
+    "FUNCTIONS_EXTENSION_VERSION": "~4",
+    "WEBSITE_CONTENTAZUREFILECONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=resumebackend9236;AccountKey=0qOaR3avyDeP6PoIHGTVq3WfAAV/zEo+n8bVn3mlgbm29rLOh64Pa7vEgK5cTAhIy96jZHBQTBOt+ASthNzzkA==;EndpointSuffix=core.windows.net",
+    "WEBSITE_CONTENTSHARE": "keisharesume965a",
+    "CosmosDbConnectionString": "AccountEndpoint=https://keishasresumeapi.documents.azure.com:443/;AccountKey=NynBIyk5nzGXaPJxwu3IWLaetAAWMxAMtww3kSYsZWfDXKTX4a5WAy7ioemDvR7t33j1uhAeQKe9ACDbkYa25w=="
+  }
+}
