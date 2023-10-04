@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Georama:wght@400;600&family=Homemade+Apple&display=swap" rel="stylesheet" >
+    <link rel="icon" href="leaf.gif">
+    <title>Keisha's Resume</title>
+</head>
+<body>
+    <div class="top">
+        <!--Visitor Banner Section-->
+        <div id ="banner__container">
+            Thank you for visiting my website. You are visitor #<span id="visitor-count"></span>
+        </div>
+        <!-- Navigation Bar Section-->
+        <div class="navbar">
+            <div class="navbar__logo">KEISHA</div>
+        </div>
+    </div>
+
+    <!-- Introduction Section -->
+    <div class="main">
+        <div class="main__container">
+            <h2 id="introduction">HELLO, MY NAME IS</h2>
+            <h1 id="name">Keisha</h1>
+            <h3 id="job-title">CYBERSECURITY ANALYST</h3>
+            <img src="Keisha.png">
+            <p id="about-me">Interested in pursuing a career in cloud security.<br>Currently studying for the AZ 900 exam.<br>Based in Houston.</p>
+        </div>
+    </div>
+
+    <div class="break"></div>
+
+    <!-- Education Section -->
+    <h3 class="section">BACKGROUND</h3>
+    <div class="education__container">
+        <h3 class="title">Education</h3>
+            <p class="description"><em>B.S. Technology
+            Management,<br> Minors in
+            Cybersecurity & Business<br>
+            Texas A&M University<br>
+            2020-2023</em></p>
+        <h3 class="title">Certifications</h3>
+        <p class="description"><em>AZ-900<br>
+            October 2023<br><br>
+            CompTIA Security+<br>
+            July 2023</em></p>
+        <h3 class="title">Bootcamps</h3>
+        <p class="description"><em>TEEX'S Digital Forensics Basics<br>
+            February 2023<br><br>
+            CodePath's Cybersecurity Course<br>
+            April 2023</em></p>
+    </div>
+
+    <section></section>
+
+    <!-- Work Section -->
+    <div class="work__container">
+        <h3 class="section">WORK EXPERIENCE</h3>
+        <br>
+        <button class="accordion">SECURITY ANALYST | AUG 2023 - PRESENT</button>
+        <div class="panel">
+            <h3>SKYWARD SPECIALTY INSURANCE</h3>
+            <ul>
+                <li>Drove a 4% surge in employee engagement with cybersecurity awareness videos within a week by leveraging the NINJIO platform and enhancing content engagement strategies</li>
+            </ul>
+        </div>
+        
+        <button class="accordion">CYBERSECURITY INTERN | MAY 2023 - AUG 2023</button>
+        <div class="panel">
+            <h3>SKYWARD SPECIALTY INSURANCE</h3>
+            <ul>
+                <li>Ensured industry standard compliance by revising 10 outdated policies and <br> documentations, including disaster recovery plan, business continuity plan, <br> and risk register, and drafting a new  vulnerability management policy</li>
+                <li>Conducted internal audit and interviews following NIST Cybersecurity <br> Framework, evaluated company-wide data access and handling of PII, and <br> made suggestions based on CIS Critical Controls</li>
+                <li>Researched and compiled a comprehensive report on the latest ransomware <br> attacks to the company executives identifying business partners affected by <br> the attacks and facilitating measures to mitigate potential risks</li>
+                <li>Monitored, identified, and addressed malicious activity on endpoints using <br> CrowdStrike, and collaborated with team to investigate incidents, including <br> those during penetration tests conducted by an MSS</li>
+            </ul>
+            <div class="panel-img2">
+                <img src="skyward-interns.png">
+            </div>
+        </div>
+
+        <button class="accordion">HACKING FOR HOMELAND SECURITY RESEARCH STUDENT | AUG 2022 - DEC 2022</button>
+        <div class="panel">
+            <h3>Department of Homeland Security & Texas A&M University</h3>
+            <ul>
+                <li>Presented background research and proposed solution to multi-year project <br> concerning traveler screening process to class, faculty, and 10+ stakeholders <br> within DHS and TSA screening operations through weekly presentations</li>
+                <li> Interpreted interview datasets to provide insights to the need for traveler <br> screening improvements and adequate data collection methods for <br> training the body scanner algorithm to improve overall traveler satisfaction</li>
+                <li> Managed project communication with TSA employees, subject matter experts, <br> and airport leadership nationwide to interview 50 individuals and meet project <br> requirements by the deadline</li>
+                <li>Utilized Lean framework to work collaboratively in a team of 3 to create <br> Minimum Viable Product by testing and revising proposed solution based on <br> stakeholder needs and the latest trends in airport security</li>
+            </ul>
+            <div class="panel-img3">
+                <img src="bbias.png">
+            </div>
+        </div>
+
+            <button class="accordion">BUSINESS ANALYST INTERN | JUN 2021 - AUG 2021</button>
+            <div class="panel">
+            <h3>TENET HEALTHCARE</h3>
+            <ul>
+                <li>  Analyzed user-populated responses from 300+ facility locations using <br> Excel and identified areas for improvement in dashboard utilization for <br> tracking 200+ manager responses</li>
+                <li> Provided one-on-one customer service to 100+ clients by clarifying PII <br> requirements and retrieving missing information in accordance with HIPAA <br> laws to maintain employee privacy</li>
+                <li> Formalized security and data retrieval processes and strategies for <br> archival record documented in an 18-page report to grow internal <br> understanding of the initiative for the team and new hires</li>
+            </ul>
+            <div class="panel-img4">
+                <img src="tenet-interns.png">
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
